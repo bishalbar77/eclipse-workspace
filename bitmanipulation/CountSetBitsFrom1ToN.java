@@ -22,11 +22,6 @@ public class CountSetBitsFrom1ToN {
         return count;
     }
 	
-	static int Log2n(int n)
-    {
-        return (n > 1) ? 1 + Log2n(n / 2) : 0;
-    }
-	
 	public static int largestPowerOfTwo(int n) {
 		int x = 0;
 		// 2 to the power x should be less than equal to n
