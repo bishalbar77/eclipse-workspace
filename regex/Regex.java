@@ -16,7 +16,7 @@ public class Regex {
 	   			String text = sc.nextLine();
 	   		}
 	   		Pattern pt = Pattern.compile(regex);
-	   	    Matcher mt = pt.matcher(text);
+	   	    Matcher mt = pt.matcher("fd");
 	   	    boolean result = mt.matches();
 	   	    if(result) {
 	   	        System.out.println("YES");
